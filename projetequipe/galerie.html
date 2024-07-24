@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre galerie</title>
+    <style>
+        body, html {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        
+        .librairie {
+            background-image: url('https://www.pro-conso.fr/wp-content/uploads/sites/14/2021/12/susan-q-yin-2JIvboGLeho-unsplash-scaled-500x0-c-default.jpg?x55736');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+        }
+        
+        .livres {
+            display: flex;
+            justify-content: space-around;
+            width: 80%;
+        }
+        
+        .livres img {
+            width: 100px;
+            height: 150px;
+            margin: 10px;
+            border: 1px solid #fff;
+        }
+        
+        .liens ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .liens li {
+            margin-bottom: 10px;
+        }
+        
+        .liens a {
+            text-decoration: none;
+            color: #337ab7;
+        }
+        
+        .liens a:hover {
+            color: #23527c;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Notre galerie</h1>
+    </header>
+    <main>
+        <section class="librairie">
+            <!-- L'image de librairie en arrière-plan sera ajoutée via CSS -->
+            <h2></h2>
+            <div class="livres">
+                <a href="">
+                    <img src="https://educomics.org/wp-content/uploads/2019/02/book-bindings-bookcase-books-1329571.jpg" alt="Livre 1">
+                </a>
+                <div class="livres">
+                <a href="">
+                    <img src="https://blog.prusa3d.com/wp-content/uploads/2021/09/tiskarna1-scaled.jpg" alt="Livre 1">
+                </a>
+                <div class="livres">
+                <a href="">
+                    <img src="https://librairie-papeterie-moliere.com/assets/backend/products/image-top-product1611248560.jpg" alt="Livre 1">
+                </a>
+                <a href="https://exemple.com/livre2.jpg">
+                    <img src="https://st.hzcdn.com/simgs/pictures/kids-rooms/kids-craft-room-margaret-l-norcott-allied-asid-img~23819d2302237f13_4-8811-1-466a5d9.jpg" alt="Livre 2">
+                </a>
+                <!-- Ajoutez plus de livres ici -->
+            </div>
+        </section>
+        <section class="liens">
+            <h2>Plus de pages</h2>
+            <ul>
+                <li><a href="home.html">Home 1</a></li>
+                <li><a href="description.html">Description</a></li>
+                <li><a href="commandez.html">Commandez-vous</a></li>
+                <li><a href="contact.html">Contactez-nous</a></li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
